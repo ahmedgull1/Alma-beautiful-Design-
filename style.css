@@ -1,0 +1,514 @@
+/* https://youtu.be/b1k1idqjy-A?si=y9K1uWN8vkkMasBV */
+
+*{
+    /* border: 1px solid #000; */
+margin: 0%;
+padding: 0%;
+}
+
+.bg {
+    background: url('./images/services2-1.jpg');
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+ul {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.saidbar {
+    position: absolute;
+    right: 0px;
+    transition-duration: 2s;
+    position: fixed;
+    z-index: 100000;
+    background-color: rgba(56, 55, 55, 0.836);
+
+
+}
+
+.nav{
+    position: absolute;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+
+.parent1 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child1 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent1:hover .child1 {
+    cursor: pointer;
+    display: block;
+}
+.parent2 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child2 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent2:hover .child2 {
+    cursor: pointer;
+    display: block;
+}
+
+.parent2-1 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child2-1 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent2-1:hover .child2-1 {
+    cursor: pointer;
+    display: block;
+}
+
+.parent2-2 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child2-2 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent2-2:hover .child2-2 {
+    cursor: pointer;
+    display: block;
+}
+
+.parent2-3 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child2-3 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent2-3:hover .child2-3 {
+    cursor: pointer;
+    display: block;
+}
+
+
+
+.parent3 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child3 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent3:hover .child3 {
+    cursor: pointer;
+    display: block;
+    display: flex;
+}
+.hr{
+    border: 0.5px solid #c5c3c3;
+}
+
+
+.parent4 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child4 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent4:hover .child4 {
+    cursor: pointer;
+    display: block;
+    display: flex;
+}
+
+.parent5 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child5 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent5:hover .child5 {
+    cursor: pointer;
+    display: block;
+}
+
+.parent6 {
+    cursor: pointer;
+    position: relative;
+}
+
+.child6 {
+    display: none;
+    background-color: #474747;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+}
+
+.parent6:hover .child6 {
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+
+
+
+
+.bar {
+}
+
+.bar11 {
+    overflow: hidden;
+}
+
+.bar-child {
+    overflow: hidden;
+    animation: scrol;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-name: scrol;
+}
+
+@keyframes scrol {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    100% {
+        transform: translateY(100px);
+
+    }
+
+}
+
+
+
+
+.parent1:hover .child1 {
+    visibility: visible;
+}
+
+.amazing {
+    background-color: #F9EBE8;
+}
+
+.b {
+    position: relative;
+    overflow: hidden;
+    width: full;
+    height: 300px;
+    transition-duration: 5s;
+
+
+
+}
+
+.b-btn {
+    position: absolute;
+    bottom: -60px;
+    transition-duration: 0.5s;
+    border: 1px solid #000;
+}
+
+.b>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.b:hover>.b-btn {
+    bottom: 0px;
+}
+
+
+.b>img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(./images/project4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    top: 0px;
+
+}
+
+.b:hover>img {
+    top: -30px;
+}
+
+
+.sec1 {
+    background-color: #FFFFFF;
+}
+
+.sec1>p {
+    color: #B1B1B1;
+}
+
+.sec4 {
+    position: relative;
+    background: url(./images/services2-1.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.sec4-child {
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+.sec5 {
+
+    background: url('./images/testimonials2.jpg');
+    background-size: 100% 100%;
+}
+
+.WEREALMA{
+    width: 800px;
+
+}
+.img:hover {
+    background-color: #0000007a;
+    /* filter: grayscale(100%); */
+}
+
+.sec6 {
+    background-color: #FFFFFF;
+}
+
+.sec7 {
+    background: url(./images/blog22.jpg);
+    background-size: 100% 100%;
+}
+
+.footer {
+    background: url(./images/newhome4.jpg);
+    background-size: 100% 100%;
+}
+
+.input {
+    position: relative;
+}
+
+.input-btn {
+    position: absolute;
+}
+
+/* https://youtu.be/DDt4vgURJeE?si=huMT4XG8BvcL0mzW */
+
+
+.slider {
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.slider div:nth-child(2) {
+    transform: translateX(100%);
+}
+
+.slider div:nth-child(3) {
+    transform: translateX(200%);
+}
+
+.slider div:nth-child(4) {
+    transform: translateX(300%);
+}
+
+
+.child>div {
+    width: 50%;
+    height: 100%;
+}
+
+/* cyrcle styling */
+
+.outer-circle {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.center-icon {
+    font-size: 40px;
+    color: red;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.description p {
+    font-size: 14px;
+    color: #666;
+}
+
+.icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: red;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+.icon:hover {
+    cursor: pointer;
+    background-color: rgb(250, 136, 136);
+    color: #ffffff;
+
+}
+
+.top {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-left {
+    top: 25%;
+    left: 12%;
+    transform: translate(-100%, -50%);
+}
+
+.top-right {
+    top: 25%;
+    right: 12%;
+    transform: translate(100%, -50%);
+}
+
+.bottom-left {
+    bottom: 25%;
+    left: 12%;
+    transform: translate(-100%, 50%);
+}
+
+.bottom-right {
+    bottom: 25%;
+    right: 12%;
+    transform: translate(100%, 50%);
+}
+
+.bottom {
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
